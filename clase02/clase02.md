@@ -2,9 +2,9 @@
 # Etiquetas de imagen
 
 Para poder usar imágenes en nuestra web, nosotros vamos a poder utilizar la etiqueta img, esta etiqueta nos permite a nosotros poder definir imágenes dentro de nuestra web
-´´´´
+```
 <img src='ruta de  imagen' alt='texto alternativo' title='título de la imagen'>
-´´´´
+```
 El atributo alt  nos permite define un texto alternativo en caso no se logre cargar la imagen
 El atributo title nos permite definir un titulo para la imagen 
 
