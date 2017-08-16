@@ -22,18 +22,19 @@ Los elementos de la lista no presentan ningún orden.
 
 ```
 <ul>
-<li>elemento de lista</li>
+	<li>elemento de lista</li>
 </ul>
 ```
-```
+
 Orderlist (lista ordenada)
 Los elementos de la lista siguen un orden que no puede ser modificado.
+
 ```
 <ol>
-<li>elemento de lista</li>
+	<li>elemento de lista</li>
 </ol>
 ```
 
-Tener en cuenta que dentro de cada tipo de lista se debe tener para cada item la etiqueta <li> que representa un item de lista
+Tener en cuenta que dentro de cada tipo de lista se debe tener para cada item la etiqueta li que representa un item de lista
 
 
