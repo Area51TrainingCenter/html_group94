@@ -1,0 +1,34 @@
+/** selectores 
+3 selectores
+por etiqueta
+por clase
+por id
+**/
+
+h1{
+	color: blue;
+}
+
+/** para selecionar a un elemento
+con una clase
+se antepone el punto . y seguido el nombre de la case 
+*/
+
+.parrafo1{
+	color: red;
+}
+.titulo{
+	color: orange;
+	font-size: 30px;
+	font-family: arial;
+	text-transform: lowercase;
+}
+.text-blue{
+	color: blue;
+}
+.letter-capital{
+	font-size: 40px;
+}
+.size{
+	font-size: 20px;
+}

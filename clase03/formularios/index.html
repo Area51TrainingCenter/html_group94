@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Ejemplo Formulario</title>
+	</head>
+	<body>
+		<h1>Formularios:</h1>
+
+		<form action="gracias.html" method="POST">
+			<label>Fecha de Registro</label>
+			<input type="text" name="inp-registro" readonly value="17/072017">
+			<br>
+			<label>
+			Ingresar Nombre: 	
+			</label>
+			<input type="text" name="inp-nombre" placeholder ="Ingresa solo tu nombre aquí" required><br>
+			<label>
+			Ingresar Apellido: 	
+			</label>
+			<input type="text" name="inp-apellido" required><br>
+			<label>
+			Ingresar Contraseña: 	
+			</label>
+			<input type="password" name="inp-contraseña" required>
+			<br>
+			<label>
+			Ingresar Edad: 	
+			</label>
+			<input type="text" name="inp-edad">
+			<br>
+			<label>
+			Ingresar Fecha Nac.: 	
+			</label>
+			<input type="text" name="inp-fecha">
+			<br>
+			<label>
+				Cursos De interes 
+			</label><br>
+			<label> <input type="checkbox" name="cursos">HTML</label>
+			<label> <input type="checkbox" name="cursos"> CSS</label>
+			<label> <input type="checkbox" name="cursos">JS</label>
+
+			<br>
+
+			<label>
+				Horario 1 horario
+			</label><br>
+			<label> <input type="radio" name="horario">Mañana</label>
+			<label> <input type="radio" name="horario"> Tarde</label>
+			<label> <input type="radio" name="horario">Noche</label>
+
+			<br>
+
+			<label>Selecciona un distrito</label>
+			<select>
+				<option value="14">Lince</option>
+				<option value="11">Callao</option>
+				<option value="15">San Juan de Lurigancho</option>
+				<option>Jesús María</option>
+				<option>Lince</option>
+				<option>Callao</option>
+				<option>SJM</option>
+				<option>Jesús María</option>
+				<option>Lince</option>
+				<option>Callao</option>
+				<option>SJM</option>
+				<option>Jesús María</option>
+			</select>
+			<br>
+			<label>Comentario	</label>
+			<br>
+			<textarea rows="5"></textarea>
+			<input type="submit" name="inp-grabar" value="Grabar">
+			<input type="file" name="">
+		</form>
+
+	</body>
+</html>
