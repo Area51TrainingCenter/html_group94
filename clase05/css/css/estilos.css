@@ -1,0 +1,13 @@
+body{
+	background-color: skyblue;
+	font-family: arial;
+
+}
+.parrafo1{
+	font-size: 30px;
+	/*color: red;*/
+	/*color:#75e306;*/
+	/*color:rgb(255,249,67);*/
+	color:rgba(0,0,0,0.5);
+	/*color:gray;*/
+}
