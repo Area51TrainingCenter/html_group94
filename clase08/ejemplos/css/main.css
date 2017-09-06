@@ -1,0 +1,129 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+.caja-centro
+{
+	width: 100%;
+	max-width: 1260px;
+
+	margin:0 auto;
+	/*padding-left: 45px;
+	padding-right: 45px;*/
+
+}
+.listado-items{
+	text-align: center;
+}
+.section-contact{
+		padding: 0 45px;
+}
+.section-contact .title{
+	color: #1bc7ff;
+	font-size: 16px;
+	font-weight:300;
+	text-transform: uppercase;
+	border-bottom: 1px solid #1bc7ff;
+	display: inline-block; 
+	/*padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;*/
+	padding:10px 0px;
+	margin-bottom: 30px;
+
+}
+
+.item-contact{
+	width: 370px;
+	
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 24px;
+
+}
+.item-contact .pic-item{
+	vertical-align: top;
+	width: 100%;
+
+}
+
+.title-item-contact{
+	font-size: 15px;
+	color: #27343e;
+	font-weight: 600;
+	margin-top:27px;
+	margin-bottom: 17px;
+	text-transform: uppercase;
+
+}
+.sumilla-item-contact{
+	font-size: 14px;
+	font-weight: 300;
+	color: #5b5b5b;
+}
+
+.bg-sky{
+	background-color:#4d7996;
+}
+.section-coaching{
+	margin-top: 87px;
+	text-align: center;
+	padding-top: 110px;
+	padding-bottom: 100px;
+}
+
+.section-coaching .text1{
+	font-size: 28px;
+	font-weight: 400; 
+	color: white;
+	margin-bottom: 25px;
+	display: inline-block;
+}
+.section-coaching .text2{
+	font-size: 15px;
+	font-weight: 300;
+	color: white;
+}
+.btn-sing-up{
+background-color: #1bc7ff;
+color: white;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 300;
+padding-top: 20px;
+padding-left: 45px;
+padding-right: 45px;
+padding-bottom: 20px;
+padding: 20px 45px;
+display: inline-block;
+margin-top: 37px;
+border-radius: 5px;
+/*
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;*/
+/*border-radius: 10px 10px;*/
+}
+/*** helpers **/
+.no-margin-right{
+	margin-right: 0px;
+}
+.no-margin-left{
+	margin-left: 0px;
+}
+
+
+
+
