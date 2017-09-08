@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<span class="texto">
+	hola
+</span>
+
+
+<div class="box">
+	<p class="texto2">Este texto va a cambiar con el hover en el box</p>
+</div>
+</body>
+</html>
+<style type="text/css">
+	.texto{
+		color: white;
+		background-color: black;
+		display:inline-block;
+		padding: 20px;
+	}
+
+	.texto:hover{
+		background-color: white;
+		color: black;
+	}
+
+	.box{
+		width: 400px;
+		height: 200px;
+		background-color: skyblue;
+	}
+	.box .texto2{
+		color: black;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.box .texto2:hover{
+		color: red;
+	}
+
+	.box:hover .texto2{	
+		font-size: 40px;
+	} 
+
+
+
+
+</style>
