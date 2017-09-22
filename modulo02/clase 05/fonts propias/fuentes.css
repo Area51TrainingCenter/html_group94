@@ -3,9 +3,14 @@
   src: url('fonts/lubalin_graph_std_demi.eot');
   src: url('fonts/lubalin_graph_std_demi.eot?#iefix') format('embedded-opentype'),
        url('fonts/lubalin_graph_std_demi.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+
 }
+
+@font-face{
+  font-family: "pepito"
+}
+
+
 
 @font-face{
   font-family: 'LubalinGraphStdBook';
@@ -27,7 +32,7 @@
 
 
 @font-face {
-    font-family: 'groboldregular';
+    font-family: 'pepito';
     src: url('fonts/GROBOLD-webfont.eot');
     src: url('fonts/GROBOLD-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/GROBOLD-webfont.woff2') format('woff2'),
@@ -41,7 +46,7 @@
 
 .titulo
 {
-     font-family: 'groboldregular';
+     font-family: 'pepito';
 }
 
 .titulo2

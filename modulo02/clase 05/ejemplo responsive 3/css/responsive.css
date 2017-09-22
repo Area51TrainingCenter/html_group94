@@ -1,0 +1,43 @@
+@media (max-width: 1024px){
+	.center-box{
+		width: 100%;
+	}
+	.header-top
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.item-article{
+		width: 23%;
+		margin:1%;
+	}
+	.barra-redes{
+		display: none;
+	}
+}
+@media (max-width: 700px){
+.item-article{
+		width: 48%;
+		margin:1%;
+	}
+}
+
+@media(max-width: 600px){
+	
+	.header-fixed{
+		position: static;
+	}
+	.imagen-full{
+		margin-top: 0px;
+	}
+}
+
+@media (max-width: 400px){
+.item-article{
+		width: 98%;
+		margin:1%;
+	}
+
+}
+
+
