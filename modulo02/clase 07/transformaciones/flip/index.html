@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<div class="contenedor">
+	<div class="border">
+		
+		<h1>Flips</h1>
+		<div>
+	
+		<div class="box flip-x"></div>
+		<div class="box flip-y"></div>
+		<div class="box flip-z"></div>
+		</div>
+	
+
+	</div>
+
+</div>
+</body>
+</html>
+<style type="text/css">
+body{
+	font-family: arial;
+}
+*{
+	box-sizing: border-box;
+}
+a,a:hover{
+	text-decoration: none;
+}
+	.contenedor{
+		background-color: skyblue;
+		width: 970px;
+		margin:40px auto;
+		padding: 70px;
+	}
+	.border{
+		width: 100%;
+		border-radius: 10px;
+		min-height: 30px;
+		background-color: white;
+		text-align: center;
+		padding: 30px 30px;
+	}
+	
+	.box{
+		width: 200px;
+		height: 200px;
+		background-color: black;
+		margin:10px;
+		border-radius: 10px;
+		display: inline-block;
+		vertical-align: top;
+		transition: all 0.5s linear;
+	}
+
+	.flip-x:hover{
+		transform: rotateX(180deg);
+	}
+
+	.flip-y:hover{
+		transform: rotateY(180deg);
+	}
+	.flip-z:hover{
+		transform: rotate(180deg);
+	}
+	
+</style>

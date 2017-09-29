@@ -1,0 +1,30 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0px;
+}
+.container{
+	width: 970px;
+	margin:0 auto;
+}
+.caja1{
+	width: 100%;
+	height: 400px;
+  }	
+  .title{
+  	font-family: arial;
+  	font-size: 50px;
+  	text-align: center;
+  	padding-top: 130px;
+  	text-transform: uppercase;
+  	color: white;
+  	text-shadow: 1px 1px 2px black ,
+  							 1px 1px 2px black;
+  }
+.bg-1{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#85e500+0,24b8d6+100&0.65+0,1+100 */
+background: -moz-linear-gradient(45deg, rgba(133,229,0,0.65) 0%, rgba(36,184,214,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgba(133,229,0,0.65) 0%,rgba(36,184,214,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgba(133,229,0,0.65) 0%,rgba(36,184,214,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a685e500', endColorstr='#24b8d6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}

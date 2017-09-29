@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<!--<h1 class="title">
+	Welcome!
+</h1>
+
+<div class="balon"></div>-->
+<div class="balon2"></div>
+
+</body>
+</html>
+<style type="text/css">
+.title{
+	 animation: movimiento 1.5s  infinite;
+   -webkit-animation: movimiento 1.5s  infinite;
+
+}
+.balon{
+	width: 30px;
+	height: 30px;
+	background:red;
+	border-radius: 50%;
+	 animation: movimiento 1.5s  infinite;
+   -webkit-animation: movimiento 1.5s  infinite;
+}
+.balon2{
+	width: 100px;
+	height:100px;
+	background-color: red;
+	margin:50px auto;
+	border-radius: 50%;
+		 animation: agrandar 3s  infinite;
+   -webkit-animation: agrandar 3s  infinite;
+}
+
+@keyframes movimiento{
+  0% {
+   margin-top: 0px;
+  }
+  50%{
+  	 margin-top: 100px;	
+  }
+  100% {
+  	margin-top: 0px;
+   
+  }
+}
+@-webkit-keyframes movimiento{
+    0% {
+   margin-top: 0px;
+  }
+  50%{
+  	 margin-top: 100px;	
+  }
+  100% {
+  	margin-top: 0px;
+   
+  }
+}
+
+@keyframes agrandar{
+  0% {
+   transform: scale(2);
+  }
+  50%{
+  	 transform: scale(1);
+  }
+  100% {
+  	transform: scale(2);
+   
+  }
+}
+
+@-webkit-keyframes agrandar{
+  0% {
+   transform: scale(2);
+  }
+  50%{
+  	 transform: scale(1);
+  }
+  100% {
+  	transform: scale(2);
+   
+  }
+}
+</style>

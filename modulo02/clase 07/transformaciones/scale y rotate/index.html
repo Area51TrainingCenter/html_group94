@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<div class="contenedor">
+	<div class="border">
+		
+		<h1>Transormacion en enlances o botones</h1>
+		
+		<div>
+		<a class="click" href="http://www.google.com">Click me</a>
+		</div>
+<br><br>
+		<div>
+		<a class="rotate" href="http://www.google.com">Rotate me</a>
+		</div>
+
+	</div>
+
+</div>
+</body>
+</html>
+<style type="text/css">
+body{
+	font-family: arial;
+}
+*{
+	box-sizing: border-box;
+}
+a,a:hover{
+	text-decoration: none;
+}
+	.contenedor{
+		background-color: skyblue;
+		width: 970px;
+		margin:40px auto;
+		padding: 70px;
+	}
+	.border{
+		width: 100%;
+		border-radius: 10px;
+		min-height: 30px;
+		background-color: white;
+		text-align: center;
+		padding: 30px 30px;
+	}
+	.click{
+		display: inline-block;
+		vertical-align: top;
+		background-color: green;
+		color: yellow;
+		border-radius: 10px;
+		padding: 10px 20px;
+		font-size: 20px;
+		font-weight: bold;
+		transition: all 0.4s linear;
+	}
+	.click:hover{
+		transform: scale(1.5,1.5) rotateY(180deg);
+	}
+
+	.rotate
+	{
+display: inline-block;
+		vertical-align: top;
+		background-color: green;
+		color: yellow;
+		border-radius: 10px;
+		padding: 10px 20px;
+		font-size: 20px;
+		font-weight: bold;
+		transition: all 0.4s linear;
+	}
+	.rotate:hover
+	{
+		transform: rotate(30deg);
+	}
+</style>
