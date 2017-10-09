@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<div class="box1"></div>
+
+
+<div class="box2"></div>
+
+</body>
+</html>
+<style type="text/css">
+	.box1{
+		width: 200px;
+		height: 200px;
+		background-color: red;
+		transition: all 1s linear;
+		transform: rotate(-25deg);
+	/*	animation: rotar 1s linear infinite;
+    -webkit-animation:rotar 1s linear infinite;
+*/
+	}
+
+	.box2{
+		width: 100px;
+		height: 100px;
+		background-color: skyblue;
+	/*	transition: all 1s linear;*/
+		transform: rotate(-25deg);
+		animation: rotar 0.4s linear infinite;
+    -webkit-animation:rotar 0.4s linear infinite;
+
+	}
+	.box1:hover{
+		/*transform: rotate(360deg);*/
+		/*transform: rotateY(720deg);*/
+		/*transform: rotateX(360deg);*/
+transform: rotate(25deg);
+	}
+
+ 
+@keyframes rotar{
+ 0%{transform: rotate(-25deg);}
+ 50%{transform: rotate(25deg);}
+ 100%{transform: rotate(-25deg);}	
+}
+
+@-webkit-keyframes rotar{
+ 0%{transform: rotate(-25deg);}
+ 50%{transform: rotate(25deg);}
+ 100%{transform: rotate(-25deg);}	
+}
+
+</style>

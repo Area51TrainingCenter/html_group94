@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"></head>
+<body>
+
+<div class="container">
+	<section class="contenido">
+		<div class="item">
+			
+		</div>
+
+		<div class="item">
+			
+		</div>
+
+		<div class="item">
+			
+		</div>
+		<div class="item">
+			
+		</div>
+
+		<div class="item">
+			
+		</div>
+
+		<div class="item">
+			
+		</div>
+
+	</section>
+	<aside class="lateral">
+			<div class="box-lateral"></div>
+			<div class="box-lateral"></div>
+	</aside>
+	<div class="box-info">
+		<div class="col3"></div>
+		<div class="col3"></div>
+		<div class="col3"></div>
+	</div>
+</div>
+
+</body>
+</html>
+<style type="text/css">
+*{
+	box-sizing: border-box;
+}
+	.container{
+		width: 970px;
+		margin:0 auto;
+	}
+	.contenido{
+		text-align: center;
+		padding: 5px;
+		width: 600px;
+		height:auto;
+		display: inline-block;
+		vertical-align: top;
+		background-color: skyblue;
+	}
+	.lateral{padding: 10px;
+		width: 360px;
+		
+		background-color: maroon;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.item{
+		width: 180px;
+		height: 200px;
+		background-color: red;
+		margin:5px;
+		display:inline-block;
+		vertical-align: top;
+	}
+	.box-lateral{
+		width: 310px;
+		height: 190px;
+		background-color: red;
+		margin:10px auto;
+	}
+	.box-info{
+		text-align: center;
+	}
+	.col3{
+		width: 300px;
+		height: 200px;
+		background-color: green;
+		margin:10px;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+
+	@media(min-width: 0px) and (max-width:970px){
+		.container{
+			width: 100%;
+		}
+		.contenido{
+			width: 100%;
+		}
+		.item{
+			width: 30%;
+			margin:1%;
+		}
+		.lateral{
+			width: 100%;
+			text-align: center; 
+		}
+		.box-lateral{
+			width: 40%;
+			display: inline-block;
+			margin: 2%;
+		}
+		.col3{
+		width: 30%;
+		margin: 1%;
+	
+	}
+
+
+	}
+
+		@media(min-width: 0px) and (max-width:600px){
+			.item{
+			width: 47%;
+			margin:1%;
+		}
+
+			.box-lateral{
+			width: 96%;
+			display: inline-block;
+			margin: 2%;
+		}
+
+		.col3{
+		width: 98%;
+		margin: 1%;
+	
+	}
+
+	}
+</style>
