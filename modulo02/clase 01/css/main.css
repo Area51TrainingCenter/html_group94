@@ -1,0 +1,81 @@
+body{
+	font-family: 'Oswald', sans-serif;
+}
+.container{
+width: 1200px;
+margin:0 auto;
+padding-top: 40px;
+text-align: center;
+}
+.item:hover{
+	box-shadow:5px 5px 5px gray;
+}
+.item{
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 345px;
+	/*box-shadow: eje horizontal, eje vertical , radio sombra , color de sombra*/
+	/*box-shadow: 1px 1px 1px gray , -1px -1px 1px gray ;*/
+	border:1px solid rgb(223,223,223);
+	border-bottom: 5px solid #3CC395;
+	/*border-width: 3px;
+	border-style: solid;
+	border-color: gray;*/
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	transition-duration: 0.3s;
+	transition-delay: 0s;
+	/*transition-property: width;*/
+	transition-property: all;
+	transition-timing-function: linear;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.item .title{
+	
+	font-weight: 600;
+	font-size: 22px;
+	color: gray;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	transition: all 0.3s linear;
+}
+.item .price{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	font-size: 17px;
+	color: gray;
+	margin-right: 10px;
+}
+
+.item .btn{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	color: white;
+	background-color: #3CC395;
+	padding: 8px 12px;
+	display: inline-block;
+	margin-left: 10px;
+	text-transform: uppercase;
+	transition: all 0.3s linear;
+
+}
+
+
+
+
+.item:hover .title{
+color:#3CC395;
+}
+
+/*
+.item:hover .btn {
+	background-color: gray;
+}*/
+
+
+
+
