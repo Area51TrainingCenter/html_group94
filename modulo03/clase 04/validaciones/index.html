@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+	<form action="http://www.google.com"class="form-acceso">
+		<label>Ingresa user</label>
+		<input id="inp-user" type="text" name=""><br>
+		<label>Ingresa password</label><input id="inp-pass" type="text" name=""><br>
+		<input id="btn-enviar" type="submit" name="">
+	</form>
+</div>
+
+
+</body>
+</html>
+<style type="text/css">
+	.container{
+		width: 970px;
+		margin:0 auto;
+	}
+	.form-acceso{
+		width: 600px;
+		margin:50px auto;
+	}
+	label{
+		display: inline-block;
+		width: 100px;
+
+	}
+</style>
+
+<script type="text/javascript">
+	$("#btn-enviar").click(function(){
+		//anulamos el evento predeterminado que tiene 
+		event.preventDefault();
+		
+		var user;
+		user=$("#inp-user").val();
+		var password;
+		password=$("#inp-pass").val();
+		var estado;
+		estado=validar(user,password);
+
+		if(estado==true){
+			alert("bienvenido")
+		}else{
+			alert("incorrecto")
+		}
+
+
+
+	})
+
+
+
+
+
+function validar(val_user,val_pass){
+	if($.trim(val_user)=="admin" && $.trim(val_pass)="1234"){
+		return true;		
+	}
+	else{
+		return false;
+	}
+}
+/*
+num1=3;
+num2=3;
+
+if(num1!=num2){
+	//se va a ejecutar el code
+	//si el resultado el verdadero
+}
+else{
+	// se ejectu el code si el resultado es falso
+}
+*/
+</script>

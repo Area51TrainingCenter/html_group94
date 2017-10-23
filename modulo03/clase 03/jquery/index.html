@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+</head>
+<body>
+<div class="container">
+<header>
+	<nav class="nav-site">
+		<ul>
+			<li id="rojo" class="opciones">Rojo</li>
+			<li id="verde" class="opciones">Verde</li>
+			<li id="azul" class="opciones">Azul</li>
+		</ul>
+	</nav>
+</header>
+<!--<div class="box"></div>-->
+<div id="info1" class="boxinfo">
+	<h2>noticias</h2>
+</div>
+<div id="info2" class="boxinfo">
+	<h2>DEportes</h2>
+</div>
+<div id="info3" class="boxinfo">
+	<h2>Entretenimietno</h2>
+</div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+/*var ele;
+ele=document.getElementById('rojo');
+*/
+	/*
+	ele.addEventListener("click",function)
+	*/
+	$("#rojo").click(tarea)
+	
+	function tarea(){
+	$("#info1").show();
+	$("#info2").hide();
+	$("#info3").hide();
+	/*	$(".box").addClass("red");
+		$(".box").removeClass("green");
+		$(".box").removeClass("blue");*/
+
+	}
+
+	$("#rojo").click(function (){
+		$("#info1").show();
+		$("#info2").hide();
+		$("#info3").hide();
+	})
+
+
+	$("#rojo").click(function (){
+		$("#info1").show();
+		$("#info2").hide();
+		$("#info3").hide();
+
+	})
+
+
+
+	$("#verde").click(tarea2)
+	function tarea2(){
+			$("#info2").show();
+			$("#info1").hide();
+			$("#info3").hide();
+
+			$(".box").removeClass("red")
+				$(".box").removeClass("blue")
+		$(".box").addClass("green");	
+	
+	}
+
+	$("#azul").click(tarea3)
+	function tarea3(){
+		$("#info1").hide();
+		$("#info2").hide();
+			$("#info3").show();
+		$(".box").removeClass("red")
+		$(".box").removeClass("green")
+		$(".box").addClass("blue");	
+		
+	}
+
+</script>
+<style type="text/css">
+.boxinfo{
+	width: 300px;
+	margin:30px auto;
+	box-shadow: 1px 1px 1px black;
+	display: none;
+}
+.container
+{
+	width: 970px;
+	margin:0 auto;
+}
+.box{
+	width: 100px;
+	height: 100px;
+	margin:0 auto;
+	transition: all 0.4s linear;
+}
+.red{
+	background-color: red;
+
+	transform: scale(1.5,1.5);
+}
+.green{
+	background-color: green;
+
+		transform: scale(0.5,0.5);
+}
+.blue{
+	background-color: blue;
+
+	transform: scale(1.5,1.5);
+}
+	.nav-site li{
+		display: inline-block;
+		vertical-align: top;
+		font-family: arial;
+		font-size: 15px;
+		padding: 10px;
+	}
+</style>
