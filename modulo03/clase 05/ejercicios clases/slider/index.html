@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="container">
+		<section>
+
+			<img src="imagen3.jpg">
+		</section>	
+		<ul class="lista-slider">
+			<li>
+				<img src="imagen1.jpg">
+			</li>
+			<li>
+				<img src="imagen2.jpg">
+			</li>
+			<li>
+				<img src="imagen3.jpg" class="active">
+			</li>
+		</ul>
+	</div>
+
+</body>
+</html>
+<style type="text/css">
+
+.container{
+	width: 970px;
+	margin: 0 auto;
+}
+.lista-slider {
+	text-align: center;
+}
+.lista-slider li{
+	width: 200px;
+	margin:0px 20px;
+	display: inline-block;
+}
+
+.lista-slider li img{
+	width: 200px;
+	opacity: 0.5;
+	border:1px solid red;
+	
+}
+.lista-slider li img.active{
+	
+	opacity: 1;
+		
+}
+</style>

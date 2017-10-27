@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/flexslider.css">
+	
+</head>
+<body>
+
+<div style="width: 600px;margin:0 auto">
+	
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="http://lorempixel.com/400/200/" />
+    </li>
+    <li>
+      <img src="http://lorempixel.com/400/200/" />
+    </li>
+    <li>
+      <img src="http://lorempixel.com/400/200/" />
+    </li>
+  </ul>
+</div>
+
+
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+    	animation:"slide",
+    	direction:"horizontal",
+    	controlNav:true,
+    	directionNav:false,
+    	slideshow:true,
+    	slideshowSpeed:1000
+    });
+  });
+</script>
+
+<style type="text/css">
+	.flex-control-nav{
+		bottom: 5px!important;
+	}
+	.flex-control-paging li a.flex-active {
+    
+    background: rgba(94, 247, 49, 0.9)!important;
+    cursor: default;
+}
+.flex-control-paging li a{
+	    background: rgba(143, 236, 169, 0.5)!important;
+}
+
+</style>
+</body>
+</html>
