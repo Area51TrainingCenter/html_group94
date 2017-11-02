@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</head>
+<body>
+
+<ul class="listausuarios">
+	
+</ul>
+<style type="text/css">
+	*{
+		box-sizing: border-box;
+	}
+	body{
+		font-family: arial;
+	}
+	.item-usuario{
+		width: 300px;
+		display: inline-block;
+		vertical-align: top;
+		margin-bottom: 50px;
+
+
+	}
+	.usuarios{
+		width: 970px;
+		margin:20px auto;
+	}
+</style>
+<div class="usuarios">
+
+
+
+
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+	$(window).ready(function(){
+		//var url="https://jsonplaceholder.typicode.com/posts/1"
+		//var url="https://jsonplaceholder.typicode.com/users"
+		var url="https://appsystem-af4bb.firebaseio.com/resturante.json";
+		$.getJSON(url,function(data){
+			console.log(data);
+		$.map(data, function(item, i){
+   	 console.log(item.nombre); //return what you want
+		});
+
+
+			for(var i=0;i<data.length;i++){
+						console.log(data[i].name);
+						//$(".listausuarios").append("<li>"+data[i].name+"</li>")
+				$(".usuarios").append(`<article class="item-usuario">
+																<h1>`+data[i].name+`</h1>
+																<small>Correo : `+data[i].email+`</small>
+																<p>Direccion: `+data[i].address.street +`-`+data[i].address.suite +`  </p>
+																<span>Tel.</span><span> `+data[i].phone+` </span>
+																<a href="http://`+data[i].website+`">`+data[i].website+`</a>
+															</article>
+															`)
+
+
+			}
+			//$(".listausuarios").append("<li>"+data.title+"</li>")
+		})
+	})
+
+</script>
